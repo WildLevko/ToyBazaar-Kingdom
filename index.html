@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 27</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="contr">
+            <div id="stars">
+                <div class="star"></div>
+            </div>
+            <div id="asters">
+                <div class="sun"></div>
+                <div class="moon"></div>
+            </div>
+        </div>
+        
+        
+        <div class="road"></div>
+        <div class="car" id="car">
+          <svg viewBox="0 0 365 185">
+            <!-- Верхня частина -->
+            <rect x="70" y="10" width="220" height="130" fill="transparent" rx="150" stroke="crimson" stroke-width="10" />
+            <!-- Корпус -->
+            <rect x="10" y="70" width="340" height="80" fill="crimson" rx="30" />
+            <!-- Лінії -->
+            <line x1="145" y1="10" x2="145" y2="80" stroke="crimson" stroke-width="10" />
+            <line x1="215" y1="10" x2="215" y2="80" stroke="crimson" stroke-width="10" />
+            <!-- Бампери -->
+            <rect x="0" y="110" width="40" height="20" fill="#999" rx="10" />
+            <rect x="325" y="110" width="40" height="20" fill="#999" rx="10" />
+            <!-- Ліве колесо -->
+            <g>
+              <circle r="40" fill="#222" stroke="white" stroke-width="7" cx="90" cy="140" />
+              <circle r="15" fill="#555" cx="90" cy="140" />
+            </g>
+            <!-- Праве колесо -->
+            <g>
+              <circle r="40" fill="#222" stroke="white" stroke-width="7" cx="270" cy="140" />
+              <circle r="15" fill="#555" cx="270" cy="140" />
+            </g>
+            <!-- Фари -->
+            <circle r="15" fill="gold" cx="340" cy="90" />
+            <circle r="10" fill="orange" cx="15" cy="90" />
+          </svg>
+        </div>
+        <strong class="ToyBazaar">ToyBazaar Kingdom</strong>
+        <div class="controls">
+          <button id="startBtn">Старт</button>
+          <button id="stopBtn">Стоп</button>
+      </div>
+      <script src="js.js"></script>
+      <footer>
+        <div id="footer-content">
+            <h2>© 2025 ToyBazaar. Всі права захищені.</h2>
+        </div>
+        <div class="social">
+            <a target="_blank" href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png" width="3%"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" width="3%"></a>
+            <a target="_blank" href="https://x.com/?lang=en"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" width="3%"></a>
+        </div>
+        <h2>Зв'яжіться з нами: <a href="mailto:wlprogrm@gmail.com">wlprogrm@gmail.com</a></h2>
+        <h4 class="vers">version 1.1.5</h4>
+    </footer>
+    </body>
+</html>
